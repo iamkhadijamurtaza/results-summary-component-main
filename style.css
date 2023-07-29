@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  place-content: center;
+}
+
+.challenge {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 7px 10px 17px 0px rgba(196, 177, 177, 0.75);
+}
+.container {
+  background-color: hsl(252, 100%, 67%);
+  background-image: linear-gradient(
+    180deg,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  border-radius: 20px;
+  color: hsl(241, 100%, 89%);
+  padding: 10px;
+}
+.circle {
+  background-color: hsla(256, 72%, 46%, 1);
+  background-image: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1),
+    hsl(241, 81%, 54%)
+  );
+  width: 130px;
+  height: 130px;
+  margin-left: 50px;
+  border-radius: 100px;
+  padding-top: 5px;
+  justify-content: center;
+  align-content: center;
+}
+.container-1 {
+  padding: 20px;
+  width: 250px;
+  height: 350px;
+}
+
+.reaction {
+  color: hsl(0, 100%, 67%);
+  height: 70px;
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: hsl(0, 35%, 94%);
+  border-radius: 8px;
+  font-size: small;
+}
+.memory {
+  color: hsl(39, 100%, 56%);
+  height: 70px;
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  font-size: small;
+  background-color: hsl(221, 100%, 96%);
+}
+.Verbal {
+  color: hsl(166, 100%, 37%);
+  height: 70px;
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  font-size: small;
+  background-color: hsl(221, 100%, 86%);
+}
+.visual {
+  color: hsl(234, 85%, 45%);
+  height: 70px;
+  width: 200px;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: small;
+  background-color: hsl(241, 100%, 89%);
+}
+button {
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  width: 190px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  border-color: hsl(224, 30%, 27%);
+  margin-top: 40px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: hsl(241, 81%, 54%);
+}
+
+@media (max-width: 520px) {
+  body {
+    overflow: auto;
+  }
+}
